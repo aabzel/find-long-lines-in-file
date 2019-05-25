@@ -5,3 +5,10 @@ Since programs often have to be compared in winMerge code must be narrow enough 
 
 That utility searches and finds long lines in the code.
 
+
+Example of *.bat file:
+
+python long_lines.py someSrcFile.c  80
+pause
+
+
