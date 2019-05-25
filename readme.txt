@@ -8,7 +8,7 @@ That utility searches and finds long lines in the code.
 
 Example of *.bat file:
 
-python long_lines.py someSrcFile.c  80
+python find_long_lines.py someSrcFile.c  80
 pause
 
 
