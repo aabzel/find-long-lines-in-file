@@ -17,7 +17,7 @@ def exists(path):
         return False
 
 if False==exists(inFileName):
-    print inFileName + " absents"
+    print (inFileName + " absents")
     sys.exit()
 
 my_file = open(str(inFileName),'r')
@@ -26,7 +26,7 @@ lineCnt = 1;
 while line:
     curLenOfLine = len(line)
     if maxLineLen < curLenOfLine: 
-        print inFileName +" "+ str( lineCnt) + ' '+ str(len(line)) +' '+line[:-1]
+        print (inFileName +" "+ str( lineCnt) + ' '+ str(len(line)) +' '+line[:-1])
     line = my_file.readline()
     lineCnt = lineCnt + 1
 
